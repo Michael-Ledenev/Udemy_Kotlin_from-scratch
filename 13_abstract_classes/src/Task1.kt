@@ -46,5 +46,3 @@ class Round(color: String, val radius: Double) : Figure(color) {
     override fun length(): Double {return (2 * Math.PI * radius)}
 
 }
-
-class Triangle
